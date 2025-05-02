@@ -1,0 +1,80 @@
+.container cv-page {
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-width: 90%;
+    }
+    h1 {
+        color: var(--headings);
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+}
+
+.pdf-area{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    margin-left: auto;
+    margin-right: 10%;
+
+    background: var(--midGround);
+    padding: 20px;
+    opacity: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px var(--hoverHome);
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    .embeddedCV{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .page{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .container{
+        position: initial;
+        height: auto;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    &.cv-page {
+        height: 100%;
+        width: 100%;
+
+        .text-zone{
+          position: initial;
+          width: 80%;
+          transform: none;
+          width: 100%;
+          display: block;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+        h1{
+            font-size: 48px;
+        }
+      }
+    }
+    .pdf-area{
+        margin: 5%;
+        height: 80%;
+        width: auto;
+    }
+}
