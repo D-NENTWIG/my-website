@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.ff2ac6fa.css",
+    "main.js": "/my-website/static/js/main.cb34d6b5.js",
+    "static/media/CV_David_Nentwig_2025.pdf": "/my-website/static/media/CV_David_Nentwig_2025.81eabbea8dd6b0acb76d.pdf",
+    "static/media/NENTWIG.png": "/my-website/static/media/NENTWIG.0ff3cdb20c9ced494d39.png",
+    "static/media/LOGO.png": "/my-website/static/media/LOGO.d4f51bf543900f14ab0c.png",
+    "static/media/helvetica-neu.ttf": "/my-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/my-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/my-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/my-website/index.html",
+    "main.ff2ac6fa.css.map": "/my-website/static/css/main.ff2ac6fa.css.map",
+    "main.cb34d6b5.js.map": "/my-website/static/js/main.cb34d6b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff2ac6fa.css",
+    "static/js/main.cb34d6b5.js"
+  ]
+}
