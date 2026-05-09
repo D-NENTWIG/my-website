@@ -2,7 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import cv from '../../assets/files/CV_David_Nentwig_2025.pdf'
+import cv from '../../assets/files/CV_David_Nentwig.pdf'
 import BlurredCircle from '../cursorFollow'
 
 
